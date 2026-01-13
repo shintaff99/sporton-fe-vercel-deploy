@@ -10,7 +10,7 @@ const categoryList = [
     },
     {
         name: "Tennis",
-        imgUrl: "category-basketball.png",
+        imgUrl: "category-tennis.png",
     },
     {
         name: "Basketball",
