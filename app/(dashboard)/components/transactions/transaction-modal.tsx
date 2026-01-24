@@ -1,6 +1,6 @@
 import Button from "@/app/(landing)/components/ui/button";
 import Modal from "../ui/modal";
-import ImageUploadPreview from "../ui/image-upload-preview";
+import ImageUploadPreview from "../ui/image-uploud-preview";
 import { useState } from "react";
 import Image from "next/image";
 import priceFormatter from "@/app/utils/price-formatter";
