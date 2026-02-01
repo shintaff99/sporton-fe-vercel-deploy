@@ -75,7 +75,7 @@ const TransactionTable = ({
                 })
                 }</td>
               <td className="px-6 py-4 font-medium">{data.customerName}</td>
-              <td className="px-6 py-4 font-medium">{data.customerContactontact}</td>
+              <td className="px-6 py-4 font-medium">{data.customerContact}</td>
               <td className="px-6 py-4 font-medium">
                 {priceFormatter(parseInt(data.totalPayment))}
               </td>
