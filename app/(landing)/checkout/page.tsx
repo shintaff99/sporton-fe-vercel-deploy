@@ -8,7 +8,7 @@ import { useRouter } from "next/navigation";
 
 const Checkout = () => {
   const { push } = useRouter();
-  const {customerInfo, setCustomerInfo} = useCartStore();
+  const { customerInfo, setCustomerInfo } = useCartStore();
   const [formData, setFormData] = useState<CustomerInfo>({
     customerName: "",
     customerContact: null,
@@ -16,7 +16,7 @@ const Checkout = () => {
   });
 
   const handlePayment = () => {
-     if (
+    if (
       !formData.customerName ||
       !formData.customerContact ||
       !formData.customerAddress
